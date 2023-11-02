@@ -7,7 +7,7 @@ app.use(express.json());
 app.use("/",routes);
 //DB Connection
 mongoose.connect(
-    "mongodb+srv://nihmatulain2003:XhdLaTIOASswU22o@cluster0.0thuxir.mongodb.net/test"
+    "mongodb+srv://gagan2002:XhdLaTIOASswU22o@cluster0.0thuxir.mongodb.net/test"
 ).then(()=>{
     console.log("Data is connected successfully");
 })
